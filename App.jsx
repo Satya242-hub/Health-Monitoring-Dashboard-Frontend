@@ -1,6 +1,7 @@
-import React from "react";
-import HealthDashboard from "./health-dashboard.jsx";
+import HealthDashboard from "./health-dashboard";
 
-export default function App() {
+function App() {
   return <HealthDashboard />;
 }
+
+export default App;
