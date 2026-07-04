@@ -30,8 +30,8 @@ import {
 // Point these at your FastAPI server (see backend/README.md).
 // Defaults assume `uvicorn main:app --port 8000` running on the same
 // machine you're viewing this dashboard from.
-const API_BASE = "http://localhost:8000";
-const WS_URL = "ws://localhost:8000/ws/vitals";
+const API_BASE = "https://health-monitoring-dashboard-backend-production.up.railway.app";
+const WS_URL = "wss://health-monitoring-dashboard-backend-production.up.railway.app/ws/vitals";
 
 // ---------------------------------------------------------------------------
 // Design tokens
